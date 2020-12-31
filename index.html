@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+  <div class="container counter-section">
+     <div class="row text-center">
+     <div class="col-md-3 conter-box">
+     <div class="icon-box"><i class="fa fa-briefcase"></i></div>   
+      <p class="counter">150</p>
+      <p>PROJECTS COMPLETED</p>
+     </div>
+     <div class="col-md-3 conter-box">
+        <div class="icon-box"><i class="fa fa-users"></i></div>   
+         <p class="counter">590</p>
+         <p>USERS CONNECTED</p>
+        </div>
+    <div class="col-md-3 conter-box">
+            <div class="icon-box"><i class="fa fa-trophy"></i></div>   
+             <p class="counter">100</p>
+             <p>GLOBAL ACHIVMENTS</p>
+            </div>
+    <div class="col-md-3 conter-box">
+        <div class="icon-box"><i class="fa fa-coffee"></i></div>   
+         <p class="counter">800</p>
+         <p>CUP OF COFFEE</p>
+        </div>        
+     </div>
+     </div>
+
+<!--------------Counter---------------->
+      <script src="jquery.counterup.min.js"> </script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script> jQuery(document).ready(function( $ )
+      {
+          $('.counter').counterUp({
+               delay: 10,
+               time: 1000
+               });
+                });
+       </script>
+
+
+</body>
+</html>
